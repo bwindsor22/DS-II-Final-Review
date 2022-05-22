@@ -29,7 +29,7 @@ Output: True
     * Given two people, find a path of who-knows-who between them, e.g. Jane knows Sally knows Mary knows Linda 
 
 ## Dynamic Programming
-* Suppose a robot starts on stair 0, and it can hop 1, 2, or 3 stairs. We wish to find the number of ways it can arrive at a stair. For instance, there are two ways to arrive at stair 2, either two hops of size 2, or one hop of size 2. 
+* Suppose a robot starts on stair 0, and it can hop 1, 2, or 3 stairs. We wish to find the number of ways it can arrive at a stair. For instance, there are two ways to arrive at stair 2, either two hops of size 1, or one hop of size 2. 
 
 The below code solves this, but does so in exponential time. Rewrite the code so it runs in linear time.
 ```
