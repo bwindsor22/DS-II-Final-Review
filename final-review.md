@@ -67,7 +67,7 @@ The below code solves this, but does so in exponential time. Rewrite the code so
     * Lock
 
 ## Regex
-* The regex pattern `[a-z].+[0-9]` would match which of the following? Mark all that apply
+* The regex pattern `[a-z].+[0-9]` would match which of the following? Mark all that apply. You may use the following to test: `https://regex101.com/`
     * asdf###390
     * asd9
     * a9
