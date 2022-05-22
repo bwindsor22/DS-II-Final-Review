@@ -1,7 +1,8 @@
-# Maps
+# Data Structures/Algos
+## Maps
 For an array of strings, return the common elements between all strings. When a letter appears more than once in all strings, return it more than once. For instance, for ["abca","daab", "iuoewaawioeb", "caazb"], you would return ["a", "a", "b"].
 
-# Trees
+## Trees
 Given a binary search tree, and a range, return a sum of all of the elemnts in the range. For instance, for the below tree, and the range [2, 4], you would return 2 + 2.5 + 3 + 4 = 11.5
 ```
        3
@@ -9,7 +10,7 @@ Given a binary search tree, and a range, return a sum of all of the elemnts in t
 1   2.5  4   9
 ```
 
-# Graphs
+## Graphs
 * Draw a graph where a BFS and DFS produce the same traversal
 * Given an adjacency list and two nodes, write code that determines whether both nodes are connected
 ```
@@ -27,7 +28,7 @@ Output: True
     * Finding the fastest way to route a phone call between two telephones
     * Given two people, find a path of who-knows-who between them, e.g. Jane knows Sally knows Mary knows Linda 
 
-# Dynamic Programming
+## Dynamic Programming
 * Suppose a robot starts on stair 0, and it can hop 1, 2, or 3 stairs. We wish to find the number of ways it can arrive at a stair. For instance, there are two ways to arrive at stair 2, either two hops of size 2, or one hop of size 2. 
 
 The below code solves this, but does so in exponential time. Rewrite the code so it runs in linear time.
@@ -46,7 +47,8 @@ The below code solves this, but does so in exponential time. Rewrite the code so
     
 
 ```
-# Bash
+# CS Tools
+## Bash
 * Describe what each of these functions do. What are the windows equivalents of each of them?
     * htop
     * tmux
@@ -54,7 +56,7 @@ The below code solves this, but does so in exponential time. Rewrite the code so
     * You may use this site to test your work: `https://www.onlinegdb.com/online_bash_shell`
 
 
-# Threads
+## Threads
 * Explain what each of the following mean:
     * Deadlock
     * Livelock
@@ -64,6 +66,11 @@ The below code solves this, but does so in exponential time. Rewrite the code so
     * Executor.fixedThreadPool
     * Lock
 
+## Regex
+* The regex pattern `[a-z].+[0-9]` would match which of the following? Mark all that apply
+    * asdf###390
+    * asd9
+    * a9
 
 # AI in Computer Science
 * Which of the following games would it be easiest to write an AI to solve, assuming the AI uses the Minimax algorithm? Explain your answer.
