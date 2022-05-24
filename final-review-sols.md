@@ -180,7 +180,7 @@ Solution:
     * tmux -- Task Manager
 * Describe how you would make a folder in linux titled "grades" with a file "mygrade.txt" with the word "A+" inside
     * You may use this site to test your work: `https://www.onlinegdb.com/online_bash_shell`
-
+See https://github.com/bwindsor22/linux-getting-started/blob/main/README.md
 ```
 Solution:
 
