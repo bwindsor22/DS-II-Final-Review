@@ -231,8 +231,9 @@ https://docs.google.com/presentation/d/19SZE3dFBzFzbZPX7uarzL9-g6HGfxuO5PgDp7OV5
 https://gist.github.com/bwindsor22/7281bc056e9adf51c12dda5a4590c82a 
 
 To train this algorithm, have a bunch of examples of a spammer talking and a real person talking, and
- feed them into the TF-IDF algorithm as positive or negative examples. The algorithm will learn the 
- most common words for both the spammer and real person and be able to distinguish the two.
+ feed them into the TF-IDF algorithm as positive (spammer) or negative (real person) examples. 
+ The algorithm will learn the most common words for both the spammer and
+ real person and be able to distinguish the two.
 
 IDF stands for inverse-document frequency. This means that common words, like "the, and, hi", are treated
  as less important than uncommon words; "buy now, zebra"
