@@ -129,7 +129,9 @@ Write a BFS or DFS from one node to another; see e.g. https://www.geeksforgeeks.
 
 ```
 Solution:
-Disjstra's is most useful in the first scenario, because it looks at the weights in a weighted graph to determine the closest node. A phone call might be faster to route over a shorter wire, so we would want an algorithm that takes into account wire length.
+Disjstra's is most useful in the first scenario, because it looks at the weights in a weighted
+ graph to determine the closest node. A phone call might be faster to route over a shorter wire,
+  so we would want an algorithm that takes into account wire length.
 ```
 
 ## Dynamic Programming
@@ -212,10 +214,12 @@ A+
 ```
 Solution:
 See minimax lecture:  https://docs.google.com/presentation/d/1PjWxkp9bf2QOZ24XKMN6eMXsYM9blh47CW2Wln8R-OQ/edit?usp=sharing 
-Minimax represents each of the available options as a node on a tree, and computes the node with the highest value. To do this, we must be able to represent the game state as a node.
+Minimax represents each of the available options as a node on a tree, and computes the node with the highest value. To do this, 
+we must be able to represent the game state as a node.
 
 This is very easy to do in checkers; we just use the checkers board as a position on the tree.
-In poker, it's much more complicated; it's harder to represent the different random cards and players tendencies to bluff as states on a tree.
+In poker, it's much more complicated; it's harder to represent the different random cards and players tendencies to bluff
+ as states on a tree.
 
 ```
 
@@ -226,8 +230,11 @@ Recall the NLP lecture and simple sentiment analysis code:
 https://docs.google.com/presentation/d/19SZE3dFBzFzbZPX7uarzL9-g6HGfxuO5PgDp7OV5PME/edit
 https://gist.github.com/bwindsor22/7281bc056e9adf51c12dda5a4590c82a 
 
-To train this algorithm, have a bunch of examples of a spammer talking and a real person talking, and feed them into the TF-IDF algorithm as positive or negative examples. The algorithm will learn the most common words for both the spammer and real person and be able to distinguish the two.
+To train this algorithm, have a bunch of examples of a spammer talking and a real person talking, and
+ feed them into the TF-IDF algorithm as positive or negative examples. The algorithm will learn the 
+ most common words for both the spammer and real person and be able to distinguish the two.
 
-IDF stands for inverse-document frequency. This means that common words, like "the, and, hi", are treated as less important than uncommon words; "buy now, zebra"
+IDF stands for inverse-document frequency. This means that common words, like "the, and, hi", are treated
+ as less important than uncommon words; "buy now, zebra"
 ```
 
